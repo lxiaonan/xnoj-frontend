@@ -22,7 +22,6 @@ export type OpenAPIConfig = {
 export const OpenAPI: OpenAPIConfig = {
     BASE: 'http://localhost:8121',
     VERSION: '1.0',
-    //开启缓存
     WITH_CREDENTIALS: true,
     CREDENTIALS: 'include',
     TOKEN: undefined,
