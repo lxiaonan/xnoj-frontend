@@ -38,6 +38,9 @@ dependencies:
   vue:
     specifier: ^3.2.13
     version: registry.npmmirror.com/vue@3.3.4
+  vue-resize-handle:
+    specifier: ^1.0.0
+    version: registry.npmmirror.com/vue-resize-handle@1.0.0
   vue-router:
     specifier: ^4.0.3
     version: registry.npmmirror.com/vue-router@4.2.5(vue@3.3.4)
@@ -7061,6 +7064,12 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  registry.npmmirror.com/javascript-detect-element-resize@0.5.3:
+    resolution: {integrity: sha512-XbToz3yieLy8d3JRq2JXv+p7iWWBNSKU+7MvUB2toYc3Fv6Um8OJLNKySTa95AnfMrv5xynzDFq/N1PrXyibFg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/javascript-detect-element-resize/-/javascript-detect-element-resize-0.5.3.tgz}
+    name: javascript-detect-element-resize
+    version: 0.5.3
+    dev: false
+
   registry.npmmirror.com/javascript-stringify@2.1.0:
     resolution: {integrity: sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/javascript-stringify/-/javascript-stringify-2.1.0.tgz}
     name: javascript-stringify
@@ -11574,6 +11583,22 @@ packages:
       watchpack: registry.npmmirror.com/watchpack@2.4.0
       webpack: registry.npmmirror.com/webpack@5.88.2
     dev: true
+
+  registry.npmmirror.com/vue-mixins@0.2.20:
+    resolution: {integrity: sha512-oTwUEAvgKajPJFohk3imolUzpr/O7xYZY5fXM5o1mDiwb2CVOQ5FN9IXv2zs3sf3DThD2eKmY4z471jSn+0RQw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-mixins/-/vue-mixins-0.2.20.tgz}
+    name: vue-mixins
+    version: 0.2.20
+    dependencies:
+      javascript-detect-element-resize: registry.npmmirror.com/javascript-detect-element-resize@0.5.3
+    dev: false
+
+  registry.npmmirror.com/vue-resize-handle@1.0.0:
+    resolution: {integrity: sha512-lw5HMrjp09ufnKUQt3h0xvobYxp//4ti3ViWTnXAJk6ek6poEB+j4OKYAEs7sC/NDr8+xbwmwDHVZW/iJK/8mQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-resize-handle/-/vue-resize-handle-1.0.0.tgz}
+    name: vue-resize-handle
+    version: 1.0.0
+    dependencies:
+      vue-mixins: registry.npmmirror.com/vue-mixins@0.2.20
+    dev: false
 
   registry.npmmirror.com/vue-router@4.2.5(vue@3.3.4):
     resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-router/-/vue-router-4.2.5.tgz}

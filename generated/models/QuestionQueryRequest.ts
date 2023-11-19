@@ -9,6 +9,7 @@ export type QuestionQueryRequest = {
     current?: number;
     id?: number;
     pageSize?: number;
+    rate?: number;
     sortField?: string;
     sortOrder?: string;
     tags?: Array<string>;
